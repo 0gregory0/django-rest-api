@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     "apis.apps.ApisConfig",
 
     #3rdparth
-    "rest_framework",
+    "rest_framework", # Django Rest Framework
+    "drf_yasg", # Django Rest Documentation
 ]
 
 MIDDLEWARE = [
